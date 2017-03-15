@@ -7,7 +7,7 @@
 6 silly lifecycle redux-simple-starter@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle redux-simple-starter@1.0.0~start: redux-simple-starter@1.0.0
 8 verbose lifecycle redux-simple-starter@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle redux-simple-starter@1.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/freespace/Project/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+9 verbose lifecycle redux-simple-starter@1.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/freespace/Project/node_modules/.bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2016.4/bin:/opt/Xilinx/Vivado_HLS/2016.4/bin:/home/freespace/bin:/home/freespace/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 10 verbose lifecycle redux-simple-starter@1.0.0~start: CWD: /home/freespace/Project
 11 silly lifecycle redux-simple-starter@1.0.0~start: Args: [ '-c',
 11 silly lifecycle   'node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js' ]

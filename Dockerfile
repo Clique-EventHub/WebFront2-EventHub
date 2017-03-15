@@ -1,9 +1,9 @@
-FROM node:7
+FROM node
 RUN mkdir -p /usr/app
 COPY . /usr/app
 WORKDIR /usr/app
-ENV PORT=8080
-EXPOSE 8080 
+ENV PORT=80
+EXPOSE 80 
 RUN npm update
 CMD ["npm","start"]
 
