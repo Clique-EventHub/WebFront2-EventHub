@@ -4,6 +4,6 @@ COPY . /usr/app
 WORKDIR /usr/app
 ENV PORT=80
 EXPOSE 80 
-RUN npm update
+RUN npm install
 CMD ["npm","start"]
 
