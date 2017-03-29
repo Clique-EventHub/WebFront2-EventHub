@@ -23,9 +23,9 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './',
     https: {
-      key: fs.readFileSync("/path/to/server.key"),
-      cert: fs.readFileSync("/path/to/server.crt"),
-      ca: fs.readFileSync("/path/to/ca.pem"),
+      key: fs.readFileSync("/etc/letsencrypt/live/www.cueventhub.com/privkey.pem"),
+      cert: fs.readFileSync("/etc/letsencrypt/live/www.cueventhub.com/fullchain.pem"),
+      ca: fs.readFileSync("/etc/letsencrypt/live/www.cueventhub.com/chain.pem"),
     }
   }
 };
